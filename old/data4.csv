@@ -1,0 +1,13 @@
+source,target,value,category
+grid,total power pool,50,0
+solar panels,total power pool,10,0
+wind energy,total power pool,15,0
+total power pool,cars,5,0
+total power pool,cars,0,0
+total power pool,beach house,5,1
+beach house,total power pool,0,1
+battery,total power pool,5,2
+total power pool,battery,0,2
+
+
+

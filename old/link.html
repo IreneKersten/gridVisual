@@ -1,0 +1,16 @@
+<svg width="400" height="200">
+    <!-- Definieer de pijlpunt marker -->
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+      </marker>
+    </defs>
+    
+    <!-- Definieer het pad met herhalende pijlen -->
+    <path d="M50,100 L350,100" stroke="#00f"  stroke-width="2" marker-end="url(#arrow)" />
+    
+    <!-- Extra pijlen langs het pad -->
+    <path d="M75,100 L100,100" stroke="#f000" stroke-width="4" marker-end="url(#arrow)" />
+    <path d="M125,100 L150,100" stroke="#0f00" stroke-width="6" marker-end="url(#arrow)" />
+    <!-- Voeg zoveel extra lijnen toe als nodig is -->
+  </svg>

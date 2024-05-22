@@ -1,0 +1,18 @@
+source,target,value
+grid,municipality electric vehicles,10
+grid,municipality battery,30
+grid,harbour,100
+grid,beach house 1,100
+grid,beach house 2,10
+grid,beach house 3,10
+grid,microgrid battery,0
+microgrid battery,beach house 1,-20
+microgrid battery,beach house 2,-20
+microgrid battery,beach house 3,-20
+municipality battery,harbour,-30
+municipality solar,harbour,-5
+municipality wind,harbour,-5
+municipality wind,grid,-5
+municipality battery,municipality electric vehicles,-10
+municipality solar,municipality battery,-20
+municipality solar,grid,-20
